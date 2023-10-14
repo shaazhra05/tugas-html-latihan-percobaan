@@ -1,0 +1,59 @@
+<body>
+    <div>
+    <table border="1">
+        <tr>
+            <th><a href= index.html>Home</a>&emsp;&emsp;</th>
+            <th><a href = gallary.html>Gallery</a>&emsp;&emsp;</th>
+            <th><a href = about.html>About Me</a>&emsp;&emsp;</th> 
+            <th><a href = contact.html>Contact</a>&emsp;&emsp;</th>
+        </tr>
+    </table> 
+    </div>
+</body> 
+<html>
+    <head>
+    <title>Latihan Data diri</title>
+         <body>
+        <div id="container">
+            <form action="post">
+                <table border="0">
+                    <tr>
+                        <th> Name : <input type="text"></th> 
+                    </tr>
+                    <tr>
+                        <th> email : <input type="text"></th>
+                    </tr>
+                    <tr>
+                        <th> description : <input type="text"></th>
+                    </tr>
+                    
+                </table>
+            </form>
+            <button onclick="TampilkanData()">Konfirmasi</button>
+            <div id="content"></div>
+                <div id="hasil_nama"></div>
+                <div id="hasil_email"></div>
+                <div id="hasil_description"></div>
+        </div>
+
+        <script type="text/javascript">
+            function TampilkanData(){
+                var Nama = document.getElementById('data_nama').value;
+                var Kelas = document.getElementById('data_email').value;
+                var Umur = document.getElementById('data_description').value;
+                var hasilNilai;
+                console.log(Nama);
+                console.log(email);
+                console.log(description);
+                console.log(Hobby);
+                alert("nama "+ Nama + "\nkelas : "+ Kelas + "\numur : "+ Umur + "\nhobby : "+ Hobby);
+    
+                document.getElementById('hasil_nama').Nama;
+                document.getElementById('hasil_kelas').Kelas;
+                document.getElementById('hasil_umur').Umur;
+                document.getElementById('hasil_hobby').Hobby;
+            }    
+             </script>
+        </body>
+    </head>
+</html
